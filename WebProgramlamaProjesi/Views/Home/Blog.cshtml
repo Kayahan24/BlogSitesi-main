@@ -2,9 +2,9 @@
 @{
     ViewData["Title"] = "Blog";
 }
-<h2 class="text-center">BLOGLAR</h2>
-<div class="text-center">
-    <div class="col-md-6 content-main mx-auto">
+<h2 class="text-center" style="color:#12DC71">BLOGLAR</h2>
+<div class="ml-2 pl-2">
+    <div class="col-md-10 content-main mx-auto">
         <div class="content-grid">
             <div class="content-grid-info">
                 @foreach (var item in Model.Deger1)
@@ -21,7 +21,7 @@
         </div>
     </div>
 
-    <div class="col-md-6 content-right mx-auto">
+    <div class="col-md-2 content-right">
         <div class="recent">
 
             @foreach (var x in Model.Deger3)

@@ -178,7 +178,7 @@ h2 {
 	font-size: 40px;
 	line-height: 29px;
 	font-family: "Century Gothic", Helvetica, sans-serif;
-	color: #12DC71;
+	color: #12DC71 !important !important;
 	padding: 30px 0;
 }
 /*--content--*/
@@ -193,7 +193,7 @@ h2 {
 	.con-top h3 {
 		font-size: 30px;
 		text-align: center;
-		color: #12DC71;
+		color: #12DC71 !important !important;
 		font-family: "Century Gothic", Helvetica, sans-serif;
 		margin-bottom: 15px;
 	}
@@ -228,7 +228,7 @@ h2 {
 	display: block;
 }
 .left-text h4 {
-	color: #12DC71;
+	color: #12DC71 !important;
 	font-size: 15px;
 	margin: 15px 0;
 	font-weight: bold;
@@ -249,9 +249,9 @@ span.doller{
 	color: white;
 	font-size: 12px;
 	cursor: pointer;
-	background: #12DC71 url(../images/but.png);
+	background: #12DC71 !important url(../images/but.png);
 	margin-bottom: 20px;
-	border: 1px solid #12DC71;
+	border: 1px solid #12DC71 !important;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -274,7 +274,7 @@ span.doller{
 	margin-right: 0px;
 }
 	.padding h4, .padding1 h4, .desti-middle h4, .desti-right h4 {
-		color: #12DC71;
+		color: #12DC71 !important;
 		font-family: "Century Gothic", Helvetica, sans-serif;
 		margin-bottom: 15px;
 		font-size: 25px;
@@ -298,13 +298,13 @@ span.doller{
 	font-weight: normal;
 }
 	.list a:hover {
-		color: #12DC71;
+		color: #12DC71 !important;
 		font-weight: bold;
 	}
 .link1 {
 	font-size: 12px;
 	line-height: 18px;
-	color: #12DC71;
+	color: #12DC71 !important;
 	font-weight: bold;
 	background: url(../images/link1-bg.gif) right 8px no-repeat;
 	padding-right: 7px;
@@ -347,7 +347,7 @@ span.doller{
 /*--about--*/
 .about h3, .contact-top h3 {
 	font-size: 30px;
-	color: #12DC71;
+	color: #12DC71 !important;
 	font-family: "Century Gothic", Helvetica, sans-serif;
 	padding: 20px 0;
 }
@@ -458,7 +458,7 @@ span.doller{
 }
 .contact-left h3 {
 	font-size: 18px;
-	color: #12DC71;
+	color: #12DC71 !important;
 	margin-bottom: 5px;
 }
 .contact-left p {
@@ -478,7 +478,7 @@ span.doller{
 }
 /*--- slider-css --*/
 .slider{
-	    background-color: #F5F5F5;
+	background-color: #F5F5F5;
     position: relative;
     box-shadow: 0 0 5px #aaa;
     -webkit-box-shadow: 0 0 5px #aaa;
