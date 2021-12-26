@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WebProgramlamaProjesi.Migrations
+namespace BlogSitesi.Migrations
 {
     public partial class updte : Migration
     {

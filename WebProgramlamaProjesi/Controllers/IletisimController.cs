@@ -6,10 +6,10 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using WebProgramlamaProjesi.Data;
-using WebProgramlamaProjesi.Models;
+using BlogSitesi.Data;
+using BlogSitesi.Models;
 
-namespace WebProgramlamaProjesi.Controllers
+namespace BlogSitesi.Controllers
 {
     [Authorize]
     public class IletisimController : Controller

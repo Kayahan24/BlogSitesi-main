@@ -5,9 +5,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using WebProgramlamaProjesi.Data;
+using BlogSitesi.Data;
 
-namespace WebProgramlamaProjesi.Migrations
+namespace BlogSitesi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     [Migration("20211226102625_updte")]
@@ -156,7 +156,7 @@ namespace WebProgramlamaProjesi.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("WebProgramlamaProjesi.Models.Adres", b =>
+            modelBuilder.Entity("BlogSitesi.Models.Adres", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -186,7 +186,7 @@ namespace WebProgramlamaProjesi.Migrations
                     b.ToTable("Adres");
                 });
 
-            modelBuilder.Entity("WebProgramlamaProjesi.Models.AnaSayfa", b =>
+            modelBuilder.Entity("BlogSitesi.Models.AnaSayfa", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -204,7 +204,7 @@ namespace WebProgramlamaProjesi.Migrations
                     b.ToTable("AnaSayfa");
                 });
 
-            modelBuilder.Entity("WebProgramlamaProjesi.Models.Blog", b =>
+            modelBuilder.Entity("BlogSitesi.Models.Blog", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -228,7 +228,7 @@ namespace WebProgramlamaProjesi.Migrations
                     b.ToTable("Blog");
                 });
 
-            modelBuilder.Entity("WebProgramlamaProjesi.Models.Hakkimizda", b =>
+            modelBuilder.Entity("BlogSitesi.Models.Hakkimizda", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -246,7 +246,7 @@ namespace WebProgramlamaProjesi.Migrations
                     b.ToTable("Hakkimizda");
                 });
 
-            modelBuilder.Entity("WebProgramlamaProjesi.Models.Iletisim", b =>
+            modelBuilder.Entity("BlogSitesi.Models.Iletisim", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -270,7 +270,7 @@ namespace WebProgramlamaProjesi.Migrations
                     b.ToTable("Iletisim");
                 });
 
-            modelBuilder.Entity("WebProgramlamaProjesi.Models.User", b =>
+            modelBuilder.Entity("BlogSitesi.Models.User", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -344,7 +344,7 @@ namespace WebProgramlamaProjesi.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("WebProgramlamaProjesi.Models.Yorumlar", b =>
+            modelBuilder.Entity("BlogSitesi.Models.Yorumlar", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
@@ -381,7 +381,7 @@ namespace WebProgramlamaProjesi.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("WebProgramlamaProjesi.Models.User", null)
+                    b.HasOne("BlogSitesi.Models.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -390,7 +390,7 @@ namespace WebProgramlamaProjesi.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("WebProgramlamaProjesi.Models.User", null)
+                    b.HasOne("BlogSitesi.Models.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -405,7 +405,7 @@ namespace WebProgramlamaProjesi.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("WebProgramlamaProjesi.Models.User", null)
+                    b.HasOne("BlogSitesi.Models.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -414,16 +414,16 @@ namespace WebProgramlamaProjesi.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("WebProgramlamaProjesi.Models.User", null)
+                    b.HasOne("BlogSitesi.Models.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("WebProgramlamaProjesi.Models.Yorumlar", b =>
+            modelBuilder.Entity("BlogSitesi.Models.Yorumlar", b =>
                 {
-                    b.HasOne("WebProgramlamaProjesi.Models.Blog", "Blog")
+                    b.HasOne("BlogSitesi.Models.Blog", "Blog")
                         .WithMany("Yorumlars")
                         .HasForeignKey("BlogId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -432,7 +432,7 @@ namespace WebProgramlamaProjesi.Migrations
                     b.Navigation("Blog");
                 });
 
-            modelBuilder.Entity("WebProgramlamaProjesi.Models.Blog", b =>
+            modelBuilder.Entity("BlogSitesi.Models.Blog", b =>
                 {
                     b.Navigation("Yorumlars");
                 });

@@ -21,27 +21,27 @@ using Microsoft.AspNetCore.Identity;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\kayah\OneDrive\Masaüstü\Proje\WebProgramlamaProjesi-main\WebProgramlamaProjesi\Areas\Identity\Pages\_ViewImports.cshtml"
-using WebProgramlamaProjesi.Areas.Identity;
+using BlogSitesi.Areas.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\kayah\OneDrive\Masaüstü\Proje\WebProgramlamaProjesi-main\WebProgramlamaProjesi\Areas\Identity\Pages\_ViewImports.cshtml"
-using WebProgramlamaProjesi.Areas.Identity.Pages;
+using BlogSitesi.Areas.Identity.Pages;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 5 "C:\Users\kayah\OneDrive\Masaüstü\Proje\WebProgramlamaProjesi-main\WebProgramlamaProjesi\Areas\Identity\Pages\_ViewImports.cshtml"
-using WebProgramlamaProjesi.Models;
+using BlogSitesi.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"13b82ef97968a56a4de533f67cf3e21d662f41aa", @"/Areas/Identity/Pages/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7baac48a3bccb2f5cdabe99ac63172ed709d34ce", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0b94f55c17315f7ef5f15107b9e2c8f2aca6d59f", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     public class Areas_Identity_Pages__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using WebProgramlamaProjesi.Models;
+using BlogSitesi.Models;
 
-namespace WebProgramlamaProjesi.Data
+namespace BlogSitesi.Data
 {
     public class ApplicationDbContext : IdentityDbContext<User>
     {

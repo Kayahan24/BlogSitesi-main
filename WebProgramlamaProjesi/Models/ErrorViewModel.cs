@@ -1,6 +1,6 @@
 using System;
 
-namespace WebProgramlamaProjesi.Models
+namespace BlogSitesi.Models
 {
     public class ErrorViewModel
     {

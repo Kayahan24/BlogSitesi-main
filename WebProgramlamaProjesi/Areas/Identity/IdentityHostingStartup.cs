@@ -5,11 +5,11 @@ using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using WebProgramlamaProjesi.Data;
-using WebProgramlamaProjesi.Models;
+using BlogSitesi.Data;
+using BlogSitesi.Models;
 
-[assembly: HostingStartup(typeof(WebProgramlamaProjesi.Areas.Identity.IdentityHostingStartup))]
-namespace WebProgramlamaProjesi.Areas.Identity
+[assembly: HostingStartup(typeof(BlogSitesi.Areas.Identity.IdentityHostingStartup))]
+namespace BlogSitesi.Areas.Identity
 {
     public class IdentityHostingStartup : IHostingStartup
     {

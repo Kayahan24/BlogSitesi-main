@@ -7,10 +7,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using WebProgramlamaProjesi.Data;
-using WebProgramlamaProjesi.Models;
+using BlogSitesi.Data;
+using BlogSitesi.Models;
 
-namespace WebProgramlamaProjesi.Controllers
+namespace BlogSitesi.Controllers
 {
     public class HomeController : Controller
     {

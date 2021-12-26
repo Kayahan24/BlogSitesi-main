@@ -11,10 +11,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebProgramlamaProjesi.Data;
-using WebProgramlamaProjesi.Models;
+using BlogSitesi.Data;
+using BlogSitesi.Models;
 
-namespace WebProgramlamaProjesi
+namespace BlogSitesi
 {
     public class Startup
     {

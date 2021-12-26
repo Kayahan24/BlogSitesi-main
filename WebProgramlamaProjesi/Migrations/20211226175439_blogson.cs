@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WebProgramlamaProjesi.Migrations
+namespace BlogSitesi.Migrations
 {
     public partial class blogson : Migration
     {

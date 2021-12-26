@@ -31,7 +31,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "WebProgramlamaProjesi/1.0.0": {
+      "BlogSitesi/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "5.0.12",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.12",
@@ -317,10 +317,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "WebProgramlamaProjesi.dll": {}
+          "BlogSitesi.dll": {}
         },
         "compile": {
-          "WebProgramlamaProjesi.dll": {}
+          "BlogSitesi.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -3600,7 +3600,7 @@
     }
   },
   "libraries": {
-    "WebProgramlamaProjesi/1.0.0": {
+    "BlogSitesi/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

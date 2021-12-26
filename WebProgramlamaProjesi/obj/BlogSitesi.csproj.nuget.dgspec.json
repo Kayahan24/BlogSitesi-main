@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kayah\\OneDrive\\Masaüstü\\Proje\\WebProgramlamaProjesi-main\\WebProgramlamaProjesi\\WebProgramlamaProjesi.csproj": {}
+    "C:\\Users\\kayah\\OneDrive\\Masaüstü\\Proje\\WebProgramlamaProjesi-main\\WebProgramlamaProjesi\\BlogSitesi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kayah\\OneDrive\\Masaüstü\\Proje\\WebProgramlamaProjesi-main\\WebProgramlamaProjesi\\WebProgramlamaProjesi.csproj": {
+    "C:\\Users\\kayah\\OneDrive\\Masaüstü\\Proje\\WebProgramlamaProjesi-main\\WebProgramlamaProjesi\\BlogSitesi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\Proje\\WebProgramlamaProjesi-main\\WebProgramlamaProjesi\\WebProgramlamaProjesi.csproj",
-        "projectName": "WebProgramlamaProjesi",
-        "projectPath": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\Proje\\WebProgramlamaProjesi-main\\WebProgramlamaProjesi\\WebProgramlamaProjesi.csproj",
+        "projectUniqueName": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\Proje\\WebProgramlamaProjesi-main\\WebProgramlamaProjesi\\BlogSitesi.csproj",
+        "projectName": "BlogSitesi",
+        "projectPath": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\Proje\\WebProgramlamaProjesi-main\\WebProgramlamaProjesi\\BlogSitesi.csproj",
         "packagesPath": "C:\\Users\\kayah\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\Proje\\WebProgramlamaProjesi-main\\WebProgramlamaProjesi\\obj\\",
         "projectStyle": "PackageReference",

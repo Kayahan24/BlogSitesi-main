@@ -21,35 +21,35 @@ using Microsoft.AspNetCore.Identity;
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\kayah\OneDrive\Masaüstü\Proje\WebProgramlamaProjesi-main\WebProgramlamaProjesi\Areas\Identity\Pages\_ViewImports.cshtml"
-using WebProgramlamaProjesi.Areas.Identity;
+using BlogSitesi.Areas.Identity;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 3 "C:\Users\kayah\OneDrive\Masaüstü\Proje\WebProgramlamaProjesi-main\WebProgramlamaProjesi\Areas\Identity\Pages\_ViewImports.cshtml"
-using WebProgramlamaProjesi.Areas.Identity.Pages;
+using BlogSitesi.Areas.Identity.Pages;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 5 "C:\Users\kayah\OneDrive\Masaüstü\Proje\WebProgramlamaProjesi-main\WebProgramlamaProjesi\Areas\Identity\Pages\_ViewImports.cshtml"
-using WebProgramlamaProjesi.Models;
+using BlogSitesi.Models;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 1 "C:\Users\kayah\OneDrive\Masaüstü\Proje\WebProgramlamaProjesi-main\WebProgramlamaProjesi\Areas\Identity\Pages\Account\_ViewImports.cshtml"
-using WebProgramlamaProjesi.Areas.Identity.Pages.Account;
+using BlogSitesi.Areas.Identity.Pages.Account;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9bda081e18dd8c851ef4e2a28b1434286f35f566", @"/Areas/Identity/Pages/Account/Logout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7baac48a3bccb2f5cdabe99ac63172ed709d34ce", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9cc8006e64a70ed011c31cfae759e9a27f4f36c4", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0b94f55c17315f7ef5f15107b9e2c8f2aca6d59f", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9e3d8ae7bcbff8b826076da67ceddd70b9d9f3cc", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     public class Areas_Identity_Pages_Account_Logout : global::Microsoft.AspNetCore.Mvc.RazorPages.Page
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("form-inline"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -108,7 +108,7 @@ using WebProgramlamaProjesi.Areas.Identity.Pages.Account;
 #line hidden
 #nullable disable
             WriteLiteral("            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9bda081e18dd8c851ef4e2a28b1434286f35f5666581", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9bda081e18dd8c851ef4e2a28b1434286f35f5666537", async() => {
                 WriteLiteral("\r\n                <button type=\"submit\" class=\"nav-link btn btn-link text-dark\">Click here to Logout</button>\r\n            ");
             }
             );

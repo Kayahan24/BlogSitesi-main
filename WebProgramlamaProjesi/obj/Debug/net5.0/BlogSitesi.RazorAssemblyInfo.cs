@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.RelatedAssemblyAttribute("WebProgramlamaProjesi.Views")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.RelatedAssemblyAttribute("BlogSitesi.Views")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
 

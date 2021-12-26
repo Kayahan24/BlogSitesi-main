@@ -258,9 +258,9 @@ span.doller{
 	-moz-border-radius: 4px;
 	-o-border-radius: 4px;
 }
-.read:hover{
-	background: rgb(155, 45, 82);
-}
+	.read:hover {
+		background: #119f54 !important;
+	}
 .box1{
 }
 .padding{
