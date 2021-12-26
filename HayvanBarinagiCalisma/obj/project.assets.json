@@ -8598,11 +8598,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\WebProgramlamaProje-master\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\OyunKiralamaSitesi-main.csproj",
+      "projectUniqueName": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\kAkAYDET\\HayvanBarinagiCalisma\\OyunKiralamaSitesi\\HayvanBarinagiCalisma\\OyunKiralamaSitesi-main.csproj",
       "projectName": "OyunKiralamaSitesi-main",
-      "projectPath": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\WebProgramlamaProje-master\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\OyunKiralamaSitesi-main.csproj",
+      "projectPath": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\kAkAYDET\\HayvanBarinagiCalisma\\OyunKiralamaSitesi\\HayvanBarinagiCalisma\\OyunKiralamaSitesi-main.csproj",
       "packagesPath": "C:\\Users\\kayah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\WebProgramlamaProje-master\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\obj\\",
+      "outputPath": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\kAkAYDET\\HayvanBarinagiCalisma\\OyunKiralamaSitesi\\HayvanBarinagiCalisma\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kayah\\AppData\\Roaming\\NuGet\\NuGet.Config",

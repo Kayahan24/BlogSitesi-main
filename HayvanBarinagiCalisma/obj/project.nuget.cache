@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L50bpYxr32DnSuEdHyAeMJ/6yDNL6pXPmUeaTjSTq4Nyd2T6cl71qe9gseDR7hqWM+B6wrFeS6g9VFFT2rqF7A==",
+  "dgSpecHash": "/i1JHfdDSYD4MdL1wJN8m+8gca6aQH5FbDyIbPn5MI6hdsNny0sTJbQ9k6sPpR/3cYhMeHTARMtUe1wyYPLFXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\WebProgramlamaProje-master\\HayvanBarinagiCalisma\\HayvanBarinagiCalisma\\OyunKiralamaSitesi-main.csproj",
+  "projectFilePath": "C:\\Users\\kayah\\OneDrive\\Masaüstü\\kAkAYDET\\HayvanBarinagiCalisma\\OyunKiralamaSitesi\\HayvanBarinagiCalisma\\OyunKiralamaSitesi-main.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kayah\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.1\\microsoft.aspnetcore.cryptography.internal.3.1.1.nupkg.sha512",
     "C:\\Users\\kayah\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.1\\microsoft.aspnetcore.cryptography.keyderivation.3.1.1.nupkg.sha512",
