@@ -174,11 +174,11 @@ body{
 .indent {
 	text-align: center;
 }
-h2{
+h2 {
 	font-size: 40px;
 	line-height: 29px;
 	font-family: "Century Gothic", Helvetica, sans-serif;
-	color:#a2365a;
+	color: #12DC71;
 	padding: 30px 0;
 }
 /*--content--*/
@@ -190,12 +190,13 @@ h2{
 .con-top{
 	padding: 20px 0;
 }
-.con-top h3{
-	font-size:30px;
-	color:#a2365a;
-	font-family: "Century Gothic", Helvetica, sans-serif;
-	margin-bottom: 15px;
-}
+	.con-top h3 {
+		font-size: 30px;
+		text-align: center;
+		color: #12DC71;
+		font-family: "Century Gothic", Helvetica, sans-serif;
+		margin-bottom: 15px;
+	}
 .con-top p{
 	color:#555;
 	font-size:13px;
@@ -226,9 +227,9 @@ h2{
 .bot-left img{
 	display: block;
 }
-.left-text h4{
-	color: #a2365a;
-	font-size:15px;
+.left-text h4 {
+	color: #12DC71;
+	font-size: 15px;
 	margin: 15px 0;
 	font-weight: bold;
 }
@@ -244,13 +245,13 @@ span.doller{
 	font-weight: bold;
 }
 .read {
-	padding:7px 10px 7px;
+	padding: 7px 10px 7px;
 	color: white;
 	font-size: 12px;
 	cursor: pointer;
-	background: #a2365a url(../images/but.png);
+	background: #12DC71 url(../images/but.png);
 	margin-bottom: 20px;
-	border: 1px solid #a2365a;
+	border: 1px solid #12DC71;
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
@@ -272,12 +273,12 @@ span.doller{
 	float:left;
 	margin-right: 0px;
 }
-.padding h4, .padding1 h4, .desti-middle h4, .desti-right h4{
-	color:#a2365a;
-	font-family: "Century Gothic", Helvetica, sans-serif;
-	margin-bottom: 15px;
-	font-size:25px;	
-}
+	.padding h4, .padding1 h4, .desti-middle h4, .desti-right h4 {
+		color: #12DC71;
+		font-family: "Century Gothic", Helvetica, sans-serif;
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
 .list .list-bg {
 	background: rgb(252, 247, 248);
 }
@@ -296,14 +297,14 @@ span.doller{
 	color: #555;
 	font-weight: normal;
 }
-.list a:hover {
-	color:#a2365a;
-	font-weight: bold;
-}
+	.list a:hover {
+		color: #12DC71;
+		font-weight: bold;
+	}
 .link1 {
 	font-size: 12px;
 	line-height: 18px;
-	color: #a2365a;
+	color: #12DC71;
 	font-weight: bold;
 	background: url(../images/link1-bg.gif) right 8px no-repeat;
 	padding-right: 7px;
@@ -345,10 +346,10 @@ span.doller{
 }
 /*--about--*/
 .about h3, .contact-top h3 {
-	font-size:30px;
-	color:#a2365a;
+	font-size: 30px;
+	color: #12DC71;
 	font-family: "Century Gothic", Helvetica, sans-serif;
-	padding:20px 0;
+	padding: 20px 0;
 }
 .about img{
 	margin-bottom: 20px;
@@ -457,7 +458,7 @@ span.doller{
 }
 .contact-left h3 {
 	font-size: 18px;
-	color: #a2365a;
+	color: #12DC71;
 	margin-bottom: 5px;
 }
 .contact-left p {

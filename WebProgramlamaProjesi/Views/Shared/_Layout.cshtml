@@ -35,7 +35,7 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Blog">Blog</a>
                         </li>
                         <partial name="_AdminMenuPartial" />
-                    </ul>                    
+                    </ul>
                 </div>
             </div>
             <partial name="_LoginPartial" />
@@ -43,37 +43,105 @@
 
     </header>
     <div class="container">
+
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+    
 
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+        <script type="text/javascript" src="~/js/move-top.js"></script>
+        <script type="text/javascript" src="~/js/easing.js"></script>
 
-    <script type="text/javascript" src="~/js/move-top.js"></script>
-    <script type="text/javascript" src="~/js/easing.js"></script>    
-
-    <script src="~/js/jquery.min.js"></script>
+        <script src="~/js/jquery.min.js"></script>
         <script src="~/js/responsiveslides.min.js"></script>
 
-    <script>
-            // You can also use "$(window).load(function() {"
-            $(function () {
-                // Slideshow 1
-                $("#slider1").responsiveSlides({
-                    auto: true,
-                    nav: true,
-                    speed: 500,
-                    namespace: "callbacks",
-                });
-            });
-        </script>
 
-
-
-    @await RenderSectionAsync("Scripts", required: false)
+        @await RenderSectionAsync("Scripts", required: false)
 </body>
+<footer class="bg-secondary page-footer font-small mdb-color lighten-3 pt-4">
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-lg-2 col-md-12 col-sm-6 mb-4">
+
+                <div class="view overlay z-depth-1-half">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).webp" class="img-fluid"
+                         alt="">
+                    <a href="">
+                        <div class="mask rgba-white-light"></div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 mb-4">
+
+                <div class="view overlay z-depth-1-half">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(78).webp" class="img-fluid"
+                         alt="">
+                    <a href="">
+                        <div class="mask rgba-white-light"></div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 mb-4">
+
+                <div class="view overlay z-depth-1-half">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(79).webp" class="img-fluid"
+                         alt="">
+                    <a href="">
+                        <div class="mask rgba-white-light"></div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-lg-2 col-md-12 col-sm-6 mb-4">
+
+                <div class="view overlay z-depth-1-half">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(81).webp" class="img-fluid"
+                         alt="">
+                    <a href="">
+                        <div class="mask rgba-white-light"></div>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-sm-6 mb-4">
+
+                <div class="view overlay z-depth-1-half">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(82).webp" class="img-fluid"
+                         alt="">
+                    <a href="">
+                        <div class="mask rgba-white-light"></div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6 mb-4">
+
+                <!--Image-->
+                <div class="view overlay z-depth-1-half">
+                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(84).webp" class="img-fluid"
+                         alt="">
+                    <a href="">
+                        <div class="mask rgba-white-light"></div>
+                    </a>
+                </div>
+
+            </div>
+          
+        </div>
+
+    </div>
+    <div class="footer-copyright text-center py-3">
+        &copy; 2021 - Blog Sitesi <a asp-area="" asp-controller="Home" asp-action=""></a>
+    </div>
+</footer>
 </html>
